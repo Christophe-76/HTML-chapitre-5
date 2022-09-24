@@ -12,7 +12,7 @@ body {
 
 /* menu */
 nav {
-  background: gray;
+  background: pink;
   color: aliceblue;
 }
 
@@ -45,9 +45,11 @@ li:hover{
 /* titre */
 
 section h1 {
-  padding: 50px;
+  padding: 30px;
   display: flex;
   justify-content: center;
+  font-size: 40px;
+  color: black;
 }
 
 #titre{
@@ -85,6 +87,7 @@ section h1 {
 
 h2{
   margin-top: 20px;
+  color: green;
 }
 
 form {
@@ -106,3 +109,8 @@ textarea{
   height: 200px;
   margin: 8px;
 }
+#welcome {
+  height: 100px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWZhKMTnGg3pZyq8gy8tK_XgbEMQOhaSqhfw&usqp=CAU");
+  background-size: cover;
+} 
