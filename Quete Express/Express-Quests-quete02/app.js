@@ -46,15 +46,15 @@ app.put("/api/users/:id", verifyId, hashPassword, userHandlers.updateUser);
 app.delete("/api/users/:id", verifyId, userHandlers.deleteUser);
 
 
-// const isItRandy = (req, res) => {
-//   if (req.body.email === "karine.randy@example.com" && req.body.password === "blablabla") {
+// const isItMe= (req, res) => {
+//   if (req.body.email === "ch.mortreux@example.com" && req.body.password === "exemple") {
 //     res.send("Credentials are valid");
 //   } else {
 //     res.sendStatus(401);
 //   }
 // };
 
-// app.post("/api/login", isItRandy);
+// app.post("/api/login", isItMe;
 
 
 app.listen(port, (err) => {
