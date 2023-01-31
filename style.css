@@ -1,0 +1,116 @@
+* reset */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body */
+
+body {
+  font-family: sans-serif;
+}
+
+/* menu */
+nav {
+  background: pink;
+  color: aliceblue;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+}
+
+#ftp {
+  font-size: 1.2rem;
+}
+
+li {
+ padding: 20px;
+}
+
+li:hover{
+  background-color: aliceblue;
+  color: black;
+}
+
+/* carousel */
+
+.carousel {
+  background-color: rgb(209, 206, 206);
+  height: 300px;
+}
+
+/* titre */
+
+section h1 {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+}
+
+#titre{
+  font-size: larger;
+  margin-right: 2px;
+}
+
+#titreLight{
+  font-size: smaller;
+  padding-top: 8px;
+
+}
+
+/* Article */
+
+#flexcontainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;  
+}
+
+.a1{
+  height: 500px;
+  width: 450px;
+  background-color: rgb(209, 206, 206);
+}
+
+/* barre */
+
+.bar{
+  border-bottom: solid 2px;
+}
+
+/* formulaire */
+
+h2{
+  margin-top: 20px;
+  color: green;
+}
+
+form {
+  margin: 30px;
+  width: 100%;
+  padding-top: 20px;
+  justify-content: center;
+  height: 300px;
+  text-align: center;
+}
+
+input {
+  width: 800px;
+  margin: 10px;
+}
+
+textarea{
+  width: 800px;
+  height: 200px;
+  margin: 8px;
+}
+#welcome {
+  height: 100px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWZhKMTnGg3pZyq8gy8tK_XgbEMQOhaSqhfw&usqp=CAU");
+  background-size: cover;
+} 
