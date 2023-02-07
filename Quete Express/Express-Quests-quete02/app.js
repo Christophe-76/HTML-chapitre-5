@@ -29,6 +29,7 @@ app.post(
   userHandlers.getUserByEmailWithPasswordAndPassToNext,
   verifyPassword
 );
+
 app.post("/api/users", hashPassword, userHandlers.postUser);
 // app.post("/api/movies", validateMovie, movieHandlers.postMovie);
 // app.put("/api/movies/:id", validateMovie, movieHandlers.updateMovie);
@@ -54,7 +55,7 @@ app.delete("/api/users/:id", verifyId, userHandlers.deleteUser);
 //   }
 // };
 
-// app.post("/api/login", isItMe;
+// app.post("/api/login", isItMe);
 
 
 app.listen(port, (err) => {
